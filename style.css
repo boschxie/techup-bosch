@@ -1,0 +1,23 @@
+/* This is to apply the formatting for first header */
+h1 {
+    color: orange;
+    background-color: lightgoldenrodyellow;
+    border: 5px black solid;
+    padding: 20px, 10px;
+    text-align: center;
+}
+
+/* This is to apply formatting for second header */
+.test {
+    color: orchid;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* This is to apply formatting for last line */
+#test2 {
+    color:blue;
+    padding: 20px;
+    text-align: center;
+}
