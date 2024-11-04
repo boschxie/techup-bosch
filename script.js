@@ -30,9 +30,10 @@ while (age < 70){
 function sayHello(){
     var yourName = prompt("What is your name?");
     alert("Hello " + yourName);
+    document.getElementById("userName").textContent = yourName;
 }
 
-function validateForm(){
+/* function validateForm(){
     var input = document.getElementById ("email").value;
 
     if (!input.includes("@")) {
@@ -41,5 +42,10 @@ function validateForm(){
     } else {
         return true;
     }
-}
+} */
 
+function emailCfm(){
+    var userEmail = document.getElementById("yourEmail").value;
+    document.getElementById("email").textContent = userEmail;
+    document.getElementById("todayDate").textContent = new Date();
+}
