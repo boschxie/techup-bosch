@@ -32,4 +32,15 @@ function sayHello(){
     alert("Hello " + yourName);
 }
 
+function validateForm(){
+    var input = document.getElementById ("email").value;
+
+    if (!input.includes("@")) {
+        alert ("Invalid email address");
+        return false;
+    } else {
+        return true;
+    }
+}
+
 sayHello();
