@@ -28,5 +28,8 @@ while (age < 70){
 }
 
 function sayHello(){
-    alert("Hello everyone!");
+    var yourName = prompt("What is your name?");
+    alert("Hello " + yourName);
 }
+
+sayHello();
